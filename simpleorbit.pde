@@ -1,13 +1,9 @@
 float orbitDuration = 5*1000; // 5 second orbit
 float orbitRad = 300;
-
-void setup()
-{
+void setup(){
   size(800,800);
 }
-
-void draw()
-{
+void draw(){
   background(0);
   translate(width/2,height/2);
   fill(255,0,0);
